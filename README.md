@@ -7,8 +7,3 @@ This is a simple FastAPI authentication project with JWT, SQLite, and password h
 - Login with JWT
 - Protected routes
 - SQLite database
-
-## Installation
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload

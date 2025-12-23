@@ -22,9 +22,6 @@ POST /auth/login
 POST /auth/refresh
 GET /users/me
 
-## 📸 Screenshots
-(Swagger UI images)
-
 ## 🔮 Future Improvements
 - OAuth (Google)
 - Email service

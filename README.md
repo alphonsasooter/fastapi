@@ -16,12 +16,6 @@ FastAPI, MySQL, SQLAlchemy, JWT
 4. Setup .env
 5. Run server
 
-## 🔐 API Endpoints
-POST /auth/register
-POST /auth/login
-POST /auth/refresh
-GET /users/me
-
 ## 🔮 Future Improvements
 - OAuth (Google)
 - Email service

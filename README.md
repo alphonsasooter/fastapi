@@ -1,14 +1,30 @@
-# FastAPI Auth Project
+# FastAPI Authentication System
 
-This is a simple FastAPI authentication project with JWT, SQLite, and password hashing.
+## 🚀 Features
+- JWT Authentication
+- Role-Based Access Control
+- Secure Password Hashing
+- Refresh Tokens
 
-## Features
-- User registration
-- Login with JWT
-- Protected routes
-- SQLite database
+## 🛠 Tech Stack
+FastAPI, MySQL, SQLAlchemy, JWT
 
-## Installation
-```bash
-pip install -r requirements.txt
-uvicorn main:app --reload
+## ⚙️ Installation
+1. Clone repo
+2. Create virtual env
+3. Install requirements
+4. Setup .env
+5. Run server
+
+## 🔐 API Endpoints
+POST /auth/register
+POST /auth/login
+POST /auth/refresh
+GET /users/me
+
+## 📸 Screenshots
+(Swagger UI images)
+
+## 🔮 Future Improvements
+- OAuth (Google)
+- Email service
